@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//INHERITANCE
 public class Capsule : Shape
 {
     private string Name = "Capsule";
@@ -14,6 +15,7 @@ public class Capsule : Shape
         AssignShape();
     }
 
+    //POLYMORPHISM
     protected override void AssignShape()
     {
         mainManager.AddShape(Name);

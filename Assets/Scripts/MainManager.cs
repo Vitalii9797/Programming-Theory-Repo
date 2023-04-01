@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class MainManager : MonoBehaviour
 {
+    //ENCAPSULATION
     public static MainManager instance { get; private set; }
 
     [SerializeField] private Text cubeText;
